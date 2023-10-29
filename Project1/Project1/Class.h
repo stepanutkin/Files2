@@ -8,12 +8,7 @@ public:
 	int substr();
 	void print();
 
-	Counter() {
-		this->counter = 1;
-	}
-
-	Counter(int num) {
-		this->counter = num;
-	}
+	Counter();
+	Counter(int num);
 
 };

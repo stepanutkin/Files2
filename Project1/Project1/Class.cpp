@@ -11,4 +11,10 @@ void Counter::print() {
 	std::cout << counter << std::endl;
 }
 
+Counter::Counter() {
+	this->counter = 1;
+}
 
+Counter::Counter(int num) {
+	this->counter = num;
+}
